@@ -27,6 +27,7 @@ if(inputDate.value === ""){
 // Person birthday data
 const birthData = new Date(inputDate.value)
 const birthYear = birthData.getFullYear()
+const currentMonth = current.getMonth()
 
 // today's data
 const current = new Date
@@ -35,7 +36,7 @@ const currentMonth = current.getMonth()
 
 //calculate age 
 const ageInYears = currentYear - birthYear
-const ageInMonths = (ageInYears*12)+currentMonth
+const ageInMonths = (ageInYears*12)+(currentMonth - birthMonth)
 const ageInDays = ((ageInYears*365.25)+(currentMonth*29.5)).toFixed()
 const ageInHours = ageInDays*24
 const ageInMinutes = ageInHours*60
