@@ -17,7 +17,7 @@ const currentYear = currentDate.getFullYear();
 const currentMonth = currentDate.getMonth();
 const currentDay = currentDate.getDate();
 
-// leap year cheaker
+// leap year checker
 
 // events
 btnCalculate.addEventListener("click", calculateTime);
