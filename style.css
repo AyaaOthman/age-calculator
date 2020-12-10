@@ -58,7 +58,7 @@ input{
 .star{
     color: red;
 }
-.err-msg{
+.err-msg, .wrong-date-msg{
     background-color: red;
     text-align: center;
 }
