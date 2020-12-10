@@ -66,7 +66,7 @@ if (currentDate < birthDate) {
 else if (currentYear === birthYear)
 {
   if (currentMonth === birthMonth){
-    if (currentDay = birthDay){
+    if (currentDay === birthDay){
       yearsResult.textContent = `Welcome on earth, good luck!`;
     }else {
       let days = currentDay - birthDay
